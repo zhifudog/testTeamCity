@@ -19,7 +19,7 @@ public class Main {
 
             url = new URL("https://bbs.csdn.net/topics/390765699");
             urlConnection = url.openConnection();
-            pw = new PrintWriter(new FileWriter("D:/taobaoUrl11.txt"),true);
+            pw = new PrintWriter(new FileWriter("D:/taobaoUrl111.txt"),true);
             br = new BufferedReader(new InputStreamReader(urlConnection.getInputStream()));
             Pattern p = Pattern.compile(regex);
             String buff = null;
